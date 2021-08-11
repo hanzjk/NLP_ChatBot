@@ -10,3 +10,11 @@ The idea of this project is to create a chatbot that can assist customers in a s
 - Chatbot has the ability use recognize customer’s voice also it can speak up the response. 
 - Customers can communicate with  chatbot through text messages.
 - Customer has to tell/message each good one after another , then the chatbot will reply with shelf number of the particular good.
+
+
+## Example Conversation
+<p align="center">
+  <img  width=500  height=600 src="https://user-images.githubusercontent.com/65526190/128983431-2e245cc4-ecb1-4264-8709-63270d878c9b.jpg">
+</p>
+
+
