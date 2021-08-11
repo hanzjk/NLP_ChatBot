@@ -1,0 +1,154 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+
+     {
+      "tag": "Items",
+      "patterns": [
+        "What kind of items are there ?","What do you sell ?"
+      ],
+      "responses": [
+        "We sell grocery items, Please enter your list of items one by one to find the shelf number "
+      ]
+    }
+  ,
+    {
+      "tag": "Dairy",
+      "patterns": [
+        "Milk","Butter","Cheese","Dairy","Yoghurt","Fresh Milk","Almond Milk","Soya Milk","Curd"
+
+      ],
+      "responses": [
+        "1"
+      ]
+    },
+
+    {
+      "tag": "Stationery",
+      "patterns": [
+        "Books","Pens","Stationery","Pencils","Files","A4 Bundles","Colored Pens","Ruler"
+      ],
+      "responses": [
+        "2"
+      ]
+    },
+
+    {
+      "tag": "Sauces",
+      "patterns": [
+        "Coconut Oil","Tomato Sauce","Jam","Mayonnaise","Soy Sauce","Oyster Sauce","Canned Goods","Salad Dressing"
+      ],
+      "responses": [
+        "3"
+      ]
+    },
+    {
+      "tag": "Tea_Coffee",
+      "patterns": [
+        "Coffee","Tea","Green Tea","Tea Packets","Nescafe", "Latte"
+      ],
+      "responses": [
+        "4"
+      ]
+    },
+    {
+      "tag": "Personal_Hygiene",
+      "patterns": [
+        "Shampoo","Conditioner","Body Wash","Soap","Face Wash","Tissues","Tooth paste","Hair Oil","Tooth Brush","Wet Wipes"
+      ],
+      "responses": [
+        "1"
+      ]
+    },
+    {
+      "tag": "Noodles",
+      "patterns": [
+        "Rice Noodles", "Instant Noodles","Maggi", "Pasta", "Macaroni", "Cup Noodles"
+      ],
+      "responses": [
+        "1"
+      ]
+    },
+    {
+      "tag": "Snacks",
+      "patterns": [
+        "Biscuit","Chocolate","Snacks","Pringles","Pop Corn","Chips","Munchee Biscuits","Maliban Biscuits"
+      ],
+      "responses": [
+        "7"
+      ]
+    },
+
+    {
+      "tag": "Fish_Chicken",
+      "patterns": [
+        "Fish","Chicken","Sausages","Ham","Bacon","Prawns","Meat","Meatballs"
+      ],
+      "responses": [
+        "8"
+      ]
+    },
+
+     {
+      "tag": "Fruits",
+      "patterns": [
+        "Apple","Orange","Grapes","Mango","Berries","Papaya","Bananana","Guava"
+      ],
+      "responses": [
+        "9"
+      ]
+    },
+
+     {
+      "tag": "Vegetables",
+      "patterns": [
+        "Carrot","Pumpkin","Beans","Capsicum","Leeks","Chillies","Beetroot","Lettuce"
+      ],
+      "responses": [
+        "10"
+      ]
+    },
+
+     {
+      "tag": "Medicine",
+      "patterns": [
+        "Medicine"
+      ],
+      "responses": [
+        "We do not sell medicine at the moment"
+      ]
+    }
+
+
+  ]
+}
